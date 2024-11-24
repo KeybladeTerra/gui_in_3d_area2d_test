@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://duxe72i53lmom"]
+
+[ext_resource type="Script" path="res://camera_icon.gd" id="1_c0mch"]
+[ext_resource type="Texture2D" uid="uid://c7dywyovmb8cq" path="res://2DCamera.png" id="2_45jtx"]
+[ext_resource type="Texture2D" uid="uid://clvfvdvdl4cfp" path="res://2DCameraRed.png" id="3_0ygwc"]
+
+[node name="CameraIcon" type="Node2D"]
+script = ExtResource("1_c0mch")
+
+[node name="Black" type="Sprite2D" parent="."]
+texture = ExtResource("2_45jtx")
+
+[node name="Red" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("3_0ygwc")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+polygon = PackedVector2Array(-271, 150, -262.6, 150, -133, 60.3, -133, 110.4, -130, 117.3, -130, 120.6, -123, 130.5, -123, 132.9, -113, 141.8, -113, 143.3, -98.5, 150, 241.8, 150, 251.5, 144, 253.9, 144, 262.9, 134, 264.3, 134, 271, 119.4, 271, -120.9, 265, -130.6, 265, -132.9, 255, -141.9, 255, -143.2, 243, -149.3, 243, -150, -99.9, -150, -109.5, -144, -111.9, -144, -120.9, -134, -122.2, -134, -128.2, -122, -129.6, -122, -131.7, -112, -133, -112, -133, -59.4, -264, -150, -271, -150)
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]

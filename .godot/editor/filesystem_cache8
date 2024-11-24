@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1732476183
+2DCamera.png::CompressedTexture2D::7026575275515643328::1732313013::1732379556::1::::<><>::
+2DCameraRed.png::CompressedTexture2D::5588611857038740217::1732316781::1732379556::1::::<><>::
+camera_icon.gd::GDScript::-1::1732381333::0::1::::<>Node2D<>::
+camera_icon.tscn::PackedScene::8610821057449164272::1732383942::0::1::::<><>::res://camera_icon.gd<>uid://c7dywyovmb8cq::::res://2DCamera.png<>uid://clvfvdvdl4cfp::::res://2DCameraRed.png
+default_env.tres::Environment::-1::1732343053::0::1::::<><>::
+gui_3d.gd::GDScript::-1::1732343053::0::1::::<>Node3D<>::
+gui_in_3d.tscn::PackedScene::1771498493787818949::1732383942::0::1::::<><>::uid://dvl383ispakmn::::res://gui_panel_3d.tscn
+gui_panel_3d.tscn::PackedScene::8657696413619097341::1732383942::0::1::::<><>::res://gui_3d.gd<>uid://brwp8bimc75uu::::res://icon.webp<>uid://duxe72i53lmom::::res://camera_icon.tscn
+icon.webp::CompressedTexture2D::3626017087650301524::1732343053::1732343118::1::::<><>::
+README.md::TextFile::-1::1732343053::0::1::::<><>::
